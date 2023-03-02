@@ -7,7 +7,7 @@ function Transaction({ transactionObj }) {
       <td>{date}</td>
       <td>{description}</td>
       <td>{category}</td>
-      <td>${amount}</td>
+      <td>{amount}</td>
     </tr>
   );
 }

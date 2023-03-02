@@ -90,6 +90,13 @@
       "category": "Animal",
       "amount": "-25.55",
       "id": 13
+    },
+    {
+      "date": "2023-03-17",
+      "description": "Dog food",
+      "category": "Animal",
+      "amount": "-23",
+      "id": 14
     }
   ]
 }

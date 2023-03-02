@@ -3,6 +3,7 @@ import Transaction from "./Transaction";
 
 function TransactionsList({ transactions }) {
   
+  transactions.sort((a, b) => (a.category > b.category) ? 1 : -1)
   const transactionTable = transactions.map((transactionObj) => {
     return <Transaction key={transactionObj.id} transactionObj={transactionObj}/>;
   })
