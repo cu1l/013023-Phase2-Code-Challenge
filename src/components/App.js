@@ -7,7 +7,7 @@ function App() {
       <div className="ui segment violet inverted">
         <h2>The Royal Bank of Flatiron</h2>
       </div>
-      <AccountContainer />
+      <AccountContainer/>
     </div>
   );
 }
